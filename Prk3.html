@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <title> Form</title>
+<head>
+        
+</head>
+<body>
+    <form>
+            
+            Паспортные данные: <input type = "text"  required  pattern="^[ 0-9]+$"/> <br/> <br/> 
+            Образование: <select>
+                <option> Среднее</option>
+                <option>Специальное</option>
+                <option>Высшее</option>
+            </select> <br/> <br/> 
+            Специальность: <input type = "text"  required pattern="^[a-zA-Z]+$"/> <br/> <br/> 
+            Подразделение: <select required>
+                    <option> Подразделение №1</option>
+                    <option>Подразделение №2</option>
+                    <option>Подразделение №3</option>
+                </select> <br/> <br/> 
+            Должность: <select required>
+                    <option> Должность №1</option>
+                    <option>Должность №2</option>
+                    <option>Должность №3</option>
+                </select> <br/> <br/>
+            Оклад: <input type = "number" required /> <br> <br>
+            Дата поступления в фирму: <input type = "date" required /> <br/> <br/> 
+            Дата последнего назначения: <input type = "date" required/> <br/> <br/> 
+            <input type="submit"/> <input type="reset" value="Очистить" required/>
+    </form>
+
+</body>
+</html>
